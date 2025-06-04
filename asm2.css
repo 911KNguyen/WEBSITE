@@ -1,0 +1,67 @@
+main {
+    text-align: center;
+    background-image: url("miketyson.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 32.5cm;
+    color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    /* Đổi font dễ đọc hơn */
+    font-size: 20px;
+    text-shadow: yellow 2px -1px 3px, blue -2px 1px 2px;
+}
+
+.menu li {
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    /* sửa line-height cho cân bằng */
+    margin: 0 1px;
+    text-align: center;
+    text-shadow: yellow 2px -1px 3px, blue -2px 1px 2px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    text-shadow: yellow 2px -1px 3px, blue -2px 1px 2px;
+}
+
+footer {
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    text-shadow: yellow 2px -1px 3px, blue -2px 1px 2px;
+    font-size: 20px;
+}
+
+.img-slide {
+    height: 450px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: xxx-large;
+    color: black;
+}
+
+h2,
+h3 {
+    font-size: xx-large;
+    color: black;
+}
+
+h4,
+h5 {
+    font-size: medium;
+    color: black;
+}

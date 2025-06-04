@@ -1,0 +1,97 @@
+form {
+    text-shadow: red 2px -1px 3px, blue -2px 1px 2px;
+    text-align: left;
+    margin-left: 10px;
+    /* thêm đơn vị px cho margin */
+}
+
+.a {
+    width: 1000px;
+    height: 310px;
+    vertical-align: middle;
+    resize: none;
+    overflow: auto;
+    -ms-overflow-style: none;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+input[type=text],
+select,
+textarea,
+input[type=checkbox],
+input[type=email],
+input[type=date] {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    background-color: yellow;
+    color: red;
+    border: 2px solid blue;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid red;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 2px solid #555555;
+    border-radius: 3px;
+    background-color: white;
+}
+
+input[type=checkbox]:checked:after {
+    color: purple;
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
